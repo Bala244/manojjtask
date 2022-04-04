@@ -1,0 +1,18 @@
+{
+  "platform-version": "2.2",
+  "product": {
+    "freshdesk": {
+      "location": {
+        "ticket_top_navigation": {
+          "url": "index.html",
+          "icon": "styles/images/icon.svg"
+        }
+      }
+    }
+  },
+  "whitelisted-domains": [],
+  "engines": {
+    "node": "12.0.0",
+    "fdk": "7.5.1"
+  }
+}

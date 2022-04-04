@@ -1,0 +1,1036 @@
+2022-04-02 14:34:33.203 +0530 [debug] ([34mlogger.js[0m) [31mStarting FDK in node v12.0.0 on win32[0m
+2022-04-02 14:34:33.760 +0530 [debug] ([34msequelize.js[0m) [31msetting up sqilite at "E:\Projects\manojtask/.fdk/store.sqlite"[0m
+2022-04-02 14:34:34.889 +0530 [debug] ([34mindex.js[0m) [31mRunning with args {"cmd":"version","gopts":{},"opts":{},"goptArg":{},"optArg":{},"args":[]}[0m
+2022-04-02 14:34:34.890 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 14:34:34.890 +0530 [debug] ([34mupdater.js[0m) [31msaw --skip-update-check flag, skipping update check[0m
+2022-04-02 14:34:34.894 +0530 [info] Installed: 7.5.1
+2022-04-02 14:34:35.132 +0530 [debug] ([34mversion.js[0m) [31mdownloaded update manifest as {"cli":{"deprecated":{"version":"<7","message":"This FDK version has been deprecated and will no longer receive updates. To move to the latest version, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606"},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"7.5.1","command":"npm install https://dl.freshdev.io/cli/fdk-7.5.1.tgz -g","message":""}},"addon":{"version":"1.10.0","url":"https://dl.freshdev.io/cli-addon/addon-1.10.0.zip"}}[0m
+2022-04-02 14:34:35.136 +0530 [info] Already Up to Date..!
+2022-04-02 14:34:44.079 +0530 [debug] ([34mlogger.js[0m) [31mStarting FDK in node v12.0.0 on win32[0m
+2022-04-02 14:34:44.578 +0530 [debug] ([34msequelize.js[0m) [31msetting up sqilite at "E:\Projects\manojtask/.fdk/store.sqlite"[0m
+2022-04-02 14:34:44.644 +0530 [debug] ([34mindex.js[0m) [31mRunning with args {"cmd":"create","gopts":{},"opts":{},"goptArg":{},"optArg":{},"args":[]}[0m
+2022-04-02 14:34:44.644 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 14:34:44.645 +0530 [debug] ([34mupdater.js[0m) [31munknown last check, likely a new installation, looking for updates again[0m
+2022-04-02 14:34:44.711 +0530 [debug] ([34mupdater.js[0m) [31mdownloaded update manifest as {"cli":{"deprecated":{"version":"<7","message":"This FDK version has been deprecated and will no longer receive updates. To move to the latest version, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606"},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"7.5.1","command":"npm install https://dl.freshdev.io/cli/fdk-7.5.1.tgz -g","message":""}},"addon":{"version":"1.10.0","url":"https://dl.freshdev.io/cli-addon/addon-1.10.0.zip"}}[0m
+2022-04-02 14:34:44.712 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 14:34:48.145 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 14:34:48.150 +0530 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<7","message":"This FDK version has been deprecated and will no longer receive updates. To move to the latest version, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606"},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"7.5.1","command":"npm install https://dl.freshdev.io/cli/fdk-7.5.1.tgz -g","message":""}},"addon":{"version":"1.10.0","url":"https://dl.freshdev.io/cli-addon/addon-1.10.0.zip"}}}[0m
+2022-04-02 14:34:48.162 +0530 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<7","message":"This FDK version has been deprecated and will no longer receive updates. To move to the latest version, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606"},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"7.5.1","command":"npm install https://dl.freshdev.io/cli/fdk-7.5.1.tgz -g","message":""}},"addon":{"version":"1.10.0","url":"https://dl.freshdev.io/cli-addon/addon-1.10.0.zip"}},"last_updated":{"time_stamp":1648890288146}}[0m
+2022-04-02 14:34:48.165 +0530 [debug] ([34minit.js[0m) [31m'init' called with E:\Projects\manojtask, undefined, undefined[0m
+2022-04-02 14:36:44.162 +0530 [debug] ([34minit.js[0m) [31mInitializing template "your_first_app" with product "freshdesk".[0m
+2022-04-02 14:36:44.181 +0530 [info] A new Freshdesk app was successfully created from template "your_first_app" with the following files.
+
+2022-04-02 14:37:24.309 +0530 [debug] ([34mlogger.js[0m) [31mStarting FDK in node v12.0.0 on win32[0m
+2022-04-02 14:37:24.814 +0530 [debug] ([34msequelize.js[0m) [31msetting up sqilite at "E:\Projects\manojtask/.fdk/store.sqlite"[0m
+2022-04-02 14:37:24.878 +0530 [debug] ([34mindex.js[0m) [31mRunning with args {"cmd":"run","gopts":{},"opts":{},"goptArg":{},"optArg":{},"args":[]}[0m
+2022-04-02 14:37:24.878 +0530 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<7","message":"This FDK version has been deprecated and will no longer receive updates. To move to the latest version, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606"},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"7.5.1","command":"npm install https://dl.freshdev.io/cli/fdk-7.5.1.tgz -g","message":""}},"addon":{"version":"1.10.0","url":"https://dl.freshdev.io/cli-addon/addon-1.10.0.zip"}},"last_updated":{"time_stamp":1648890288146}}[0m
+2022-04-02 14:37:24.879 +0530 [debug] ([34mupdater.js[0m) [31mlast check less than an day ago, not looking for updates[0m
+2022-04-02 14:37:25.122 +0530 [debug] ([34mmanifest.js[0m) [31mReloading manifest with {"platform-version":"2.2","product":{"freshdesk":{"location":{"ticket_sidebar":{"url":"index.html","icon":"styles/images/icon.svg"}}}},"whitelisted-domains":[],"engines":{"node":"12.0.0","fdk":"7.5.1"}}.[0m
+2022-04-02 14:37:25.123 +0530 [debug] ([34mmanifest.js[0m) [31mInferred db as features.[0m
+2022-04-02 14:37:25.125 +0530 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<7","message":"This FDK version has been deprecated and will no longer receive updates. To move to the latest version, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606"},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"7.5.1","command":"npm install https://dl.freshdev.io/cli/fdk-7.5.1.tgz -g","message":""}},"addon":{"version":"1.10.0","url":"https://dl.freshdev.io/cli-addon/addon-1.10.0.zip"}},"last_updated":{"time_stamp":1648890288146}}[0m
+2022-04-02 14:37:25.137 +0530 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<7","message":"This FDK version has been deprecated and will no longer receive updates. To move to the latest version, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606"},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"7.5.1","command":"npm install https://dl.freshdev.io/cli/fdk-7.5.1.tgz -g","message":""}},"addon":{"version":"1.10.0","url":"https://dl.freshdev.io/cli-addon/addon-1.10.0.zip"}},"last_updated":{"time_stamp":1648890288146}}[0m
+2022-04-02 14:37:25.491 +0530 [debug] ([34mfile-util.js[0m) [31mError while requiring E:\Projects\manojtask/.report.json: Cannot find module 'E:\Projects\manojtask/.report.json'
+Require stack:
+- C:\Users\BNK\AppData\Roaming\nvm\v12.0.0\node_modules\fdk\lib\utils\file-util.js
+- C:\Users\BNK\AppData\Roaming\nvm\v12.0.0\node_modules\fdk\index.js[0m
+2022-04-02 14:37:26.281 +0530 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<7","message":"This FDK version has been deprecated and will no longer receive updates. To move to the latest version, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606"},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"7.5.1","command":"npm install https://dl.freshdev.io/cli/fdk-7.5.1.tgz -g","message":""}},"addon":{"version":"1.10.0","url":"https://dl.freshdev.io/cli-addon/addon-1.10.0.zip"}},"last_updated":{"time_stamp":1648890288146}}[0m
+2022-04-02 14:37:27.049 +0530 [debug] ([34mvalidate.js[0m) [31masked to skip the following validations, [0m
+2022-04-02 14:37:27.049 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator actions[0m
+2022-04-02 14:37:27.050 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator app-dir[0m
+2022-04-02 14:37:27.050 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator config-dir[0m
+2022-04-02 14:37:27.050 +0530 [debug] ([34mconfig-dir.js[0m) [31mChecking to see if E:\Projects\manojtask/config/ exists.[0m
+2022-04-02 14:37:27.051 +0530 [debug] ([34mconfig-dir.js[0m) [31mFetched the following config files iparams.json[0m
+2022-04-02 14:37:27.051 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator custom-objects[0m
+2022-04-02 14:37:27.051 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator event[0m
+2022-04-02 14:37:27.051 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator iparam[0m
+2022-04-02 14:37:27.053 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator lint[0m
+2022-04-02 14:37:27.053 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator manifest[0m
+2022-04-02 14:37:27.053 +0530 [debug] ([34mmanifest.js[0m) [31mrunning manifest validation with type run_validation[0m
+2022-04-02 14:37:27.054 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator manifest-dependency[0m
+2022-04-02 14:37:27.054 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator oauth[0m
+2022-04-02 14:37:27.054 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator pkgsize[0m
+2022-04-02 14:37:27.054 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator schema[0m
+2022-04-02 14:37:27.054 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator version-check[0m
+2022-04-02 14:37:27.057 +0530 [debug] ([34mwatcher.js[0m) [31mPreparing to watch the following files ./app,./config,./manifest.json[0m
+2022-04-02 14:37:27.061 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 14:37:27.061 +0530 [debug] ([34mcustom-objects.js[0m) [31mto force or not? false[0m
+2022-04-02 14:37:27.061 +0530 [debug] ([34mcustom-objects.js[0m) [31mbeginning to re-sync db[0m
+2022-04-02 14:37:27.140 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\BNK\AppData\Roaming\nvm\v12.0.0\node_modules\fdk\lib\models\bigint-pivot.js"[0m
+2022-04-02 14:37:27.142 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\BNK\AppData\Roaming\nvm\v12.0.0\node_modules\fdk\lib\models\entity-field-choice.js"[0m
+2022-04-02 14:37:27.143 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\BNK\AppData\Roaming\nvm\v12.0.0\node_modules\fdk\lib\models\entity-field.js"[0m
+2022-04-02 14:37:27.144 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\BNK\AppData\Roaming\nvm\v12.0.0\node_modules\fdk\lib\models\entity.js"[0m
+2022-04-02 14:37:27.144 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\BNK\AppData\Roaming\nvm\v12.0.0\node_modules\fdk\lib\models\record.js"[0m
+2022-04-02 14:37:27.145 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\BNK\AppData\Roaming\nvm\v12.0.0\node_modules\fdk\lib\models\string-pivot.js"[0m
+2022-04-02 14:37:27.158 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 14:37:27.158 +0530 [debug] ([34mcustom-objects.js[0m) [31mupdated local store with latest entity hash[0m
+2022-04-02 14:37:27.160 +0530 [info] Starting local testing server at http://*:10001/    
+Append 'dev=true' to your Freshdesk account URL to start testing    
+e.g. https://domain.freshdesk.com/a/tickets/1?dev=true    
+Quit the server with Control-C.
+2022-04-02 14:40:27.573 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 14:40:27.574 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_sidebar":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 14:40:27.583 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 14:40:27.583 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_sidebar":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 14:40:27.604 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 14:40:27.604 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_sidebar":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 14:41:05.890 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 14:41:05.891 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_sidebar":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 14:41:05.896 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 14:41:05.896 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_sidebar":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 14:41:05.915 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 14:41:05.915 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_sidebar":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 14:41:05.920 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 14:41:05.921 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_sidebar":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 14:41:05.926 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 14:41:05.926 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_sidebar":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 14:41:05.931 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 14:41:05.931 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_sidebar":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 14:41:05.935 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 14:41:05.936 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_sidebar":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 14:41:05.952 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2022-04-02 14:41:05.985 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2022-04-02 14:41:05.985 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting E:\Projects\manojtask\app\scripts\app.js[0m
+2022-04-02 14:41:08.228 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2022-04-02 14:41:10.111 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2022-04-02 14:42:09.924 +0530 [debug] ([34mmanifest.js[0m) [31mError while parsing manifest file Unexpected end of JSON input[0m
+2022-04-02 14:46:48.460 +0530 [debug] ([34mlogger.js[0m) [31mStarting FDK in node v12.0.0 on win32[0m
+2022-04-02 14:46:48.982 +0530 [debug] ([34msequelize.js[0m) [31msetting up sqilite at "E:\Projects\manojtask/.fdk/store.sqlite"[0m
+2022-04-02 14:46:49.045 +0530 [debug] ([34mindex.js[0m) [31mRunning with args {"cmd":"run","gopts":{},"opts":{},"goptArg":{},"optArg":{},"args":[]}[0m
+2022-04-02 14:46:49.046 +0530 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<7","message":"This FDK version has been deprecated and will no longer receive updates. To move to the latest version, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606"},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"7.5.1","command":"npm install https://dl.freshdev.io/cli/fdk-7.5.1.tgz -g","message":""}},"addon":{"version":"1.10.0","url":"https://dl.freshdev.io/cli-addon/addon-1.10.0.zip"}},"last_updated":{"time_stamp":1648890288146}}[0m
+2022-04-02 14:46:49.046 +0530 [debug] ([34mupdater.js[0m) [31mlast check less than an day ago, not looking for updates[0m
+2022-04-02 14:46:49.214 +0530 [debug] ([34mmanifest.js[0m) [31mReloading manifest with {"platform-version":"2.2","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"index.html","icon":"styles/images/icon.svg"}}}},"whitelisted-domains":[],"engines":{"node":"12.0.0","fdk":"7.5.1"}}.[0m
+2022-04-02 14:46:49.214 +0530 [debug] ([34mmanifest.js[0m) [31mInferred db as features.[0m
+2022-04-02 14:46:49.215 +0530 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<7","message":"This FDK version has been deprecated and will no longer receive updates. To move to the latest version, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606"},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"7.5.1","command":"npm install https://dl.freshdev.io/cli/fdk-7.5.1.tgz -g","message":""}},"addon":{"version":"1.10.0","url":"https://dl.freshdev.io/cli-addon/addon-1.10.0.zip"}},"last_updated":{"time_stamp":1648890288146}}[0m
+2022-04-02 14:46:49.224 +0530 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<7","message":"This FDK version has been deprecated and will no longer receive updates. To move to the latest version, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606"},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"7.5.1","command":"npm install https://dl.freshdev.io/cli/fdk-7.5.1.tgz -g","message":""}},"addon":{"version":"1.10.0","url":"https://dl.freshdev.io/cli-addon/addon-1.10.0.zip"}},"last_updated":{"time_stamp":1648890288146}}[0m
+2022-04-02 14:46:50.073 +0530 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<7","message":"This FDK version has been deprecated and will no longer receive updates. To move to the latest version, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606"},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"7.5.1","command":"npm install https://dl.freshdev.io/cli/fdk-7.5.1.tgz -g","message":""}},"addon":{"version":"1.10.0","url":"https://dl.freshdev.io/cli-addon/addon-1.10.0.zip"}},"last_updated":{"time_stamp":1648890288146}}[0m
+2022-04-02 14:46:50.700 +0530 [debug] ([34mvalidate.js[0m) [31masked to skip the following validations, [0m
+2022-04-02 14:46:50.700 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator actions[0m
+2022-04-02 14:46:50.700 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator app-dir[0m
+2022-04-02 14:46:50.701 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator config-dir[0m
+2022-04-02 14:46:50.701 +0530 [debug] ([34mconfig-dir.js[0m) [31mChecking to see if E:\Projects\manojtask/config/ exists.[0m
+2022-04-02 14:46:50.701 +0530 [debug] ([34mconfig-dir.js[0m) [31mFetched the following config files iparams.json[0m
+2022-04-02 14:46:50.701 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator custom-objects[0m
+2022-04-02 14:46:50.701 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator event[0m
+2022-04-02 14:46:50.702 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator iparam[0m
+2022-04-02 14:46:50.704 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator lint[0m
+2022-04-02 14:46:50.704 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator manifest[0m
+2022-04-02 14:46:50.704 +0530 [debug] ([34mmanifest.js[0m) [31mrunning manifest validation with type run_validation[0m
+2022-04-02 14:46:50.704 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator manifest-dependency[0m
+2022-04-02 14:46:50.704 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator oauth[0m
+2022-04-02 14:46:50.704 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator pkgsize[0m
+2022-04-02 14:46:50.704 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator schema[0m
+2022-04-02 14:46:50.704 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator version-check[0m
+2022-04-02 14:46:50.707 +0530 [debug] ([34mwatcher.js[0m) [31mPreparing to watch the following files ./app,./config,./manifest.json[0m
+2022-04-02 14:46:50.710 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 14:46:50.710 +0530 [debug] ([34mcustom-objects.js[0m) [31mto force or not? false[0m
+2022-04-02 14:46:50.710 +0530 [debug] ([34mcustom-objects.js[0m) [31mbeginning to re-sync db[0m
+2022-04-02 14:46:50.828 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\BNK\AppData\Roaming\nvm\v12.0.0\node_modules\fdk\lib\models\bigint-pivot.js"[0m
+2022-04-02 14:46:50.829 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\BNK\AppData\Roaming\nvm\v12.0.0\node_modules\fdk\lib\models\entity-field-choice.js"[0m
+2022-04-02 14:46:50.829 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\BNK\AppData\Roaming\nvm\v12.0.0\node_modules\fdk\lib\models\entity-field.js"[0m
+2022-04-02 14:46:50.830 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\BNK\AppData\Roaming\nvm\v12.0.0\node_modules\fdk\lib\models\entity.js"[0m
+2022-04-02 14:46:50.830 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\BNK\AppData\Roaming\nvm\v12.0.0\node_modules\fdk\lib\models\record.js"[0m
+2022-04-02 14:46:50.831 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\BNK\AppData\Roaming\nvm\v12.0.0\node_modules\fdk\lib\models\string-pivot.js"[0m
+2022-04-02 14:46:50.844 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 14:46:50.844 +0530 [debug] ([34mcustom-objects.js[0m) [31mupdated local store with latest entity hash[0m
+2022-04-02 14:46:50.846 +0530 [info] Starting local testing server at http://*:10001/    
+Append 'dev=true' to your Freshdesk account URL to start testing    
+e.g. https://domain.freshdesk.com/a/tickets/1?dev=true    
+Quit the server with Control-C.
+2022-04-02 14:46:59.483 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 14:46:59.483 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 14:46:59.491 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 14:46:59.491 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 14:46:59.514 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 14:46:59.515 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 14:46:59.520 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 14:46:59.520 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 14:46:59.524 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 14:46:59.525 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 14:46:59.538 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 14:46:59.538 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 14:46:59.541 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2022-04-02 14:46:59.548 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 14:46:59.549 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 14:46:59.565 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2022-04-02 14:46:59.565 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting E:\Projects\manojtask\app\scripts\app.js[0m
+2022-04-02 14:47:01.683 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2022-04-02 14:47:03.659 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2022-04-02 14:47:05.652 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2022-04-02 14:53:28.625 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"scripts\\app.js"}" to all listeners.[0m
+2022-04-02 14:53:28.628 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"scripts\\app.js"}" to all listeners.[0m
+2022-04-02 14:53:28.638 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2022-04-02 14:53:28.657 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2022-04-02 14:53:28.664 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting E:\Projects\manojtask\app\scripts\app.js[0m
+2022-04-02 14:53:31.679 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2022-04-02 14:53:48.080 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"modal.html"}" to all listeners.[0m
+2022-04-02 14:53:48.085 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2022-04-02 14:53:48.105 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2022-04-02 14:53:48.106 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting E:\Projects\manojtask\app\scripts\app.js[0m
+2022-04-02 14:53:50.190 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2022-04-02 14:54:04.198 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"scripts\\app.js"}" to all listeners.[0m
+2022-04-02 14:54:04.198 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"scripts\\app.js"}" to all listeners.[0m
+2022-04-02 14:54:04.205 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2022-04-02 14:54:04.210 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"scripts\\app.js"}" to all listeners.[0m
+2022-04-02 14:54:04.237 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2022-04-02 14:54:04.254 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting E:\Projects\manojtask\app\scripts\app.js[0m
+2022-04-02 14:54:06.681 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2022-04-02 14:55:11.703 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"modal.html"}" to all listeners.[0m
+2022-04-02 14:55:11.708 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2022-04-02 14:55:11.715 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"modal.html"}" to all listeners.[0m
+2022-04-02 14:55:11.725 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2022-04-02 14:55:11.726 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting E:\Projects\manojtask\app\scripts\app.js[0m
+2022-04-02 14:55:14.687 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2022-04-02 14:55:18.869 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"modal.html"}" to all listeners.[0m
+2022-04-02 14:55:18.871 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"modal.html"}" to all listeners.[0m
+2022-04-02 14:55:18.876 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2022-04-02 14:55:18.892 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2022-04-02 14:55:18.893 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting E:\Projects\manojtask\app\scripts\app.js[0m
+2022-04-02 14:55:21.676 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2022-04-02 14:55:31.640 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"modal.html"}" to all listeners.[0m
+2022-04-02 14:55:31.640 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"modal.html"}" to all listeners.[0m
+2022-04-02 14:55:31.645 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2022-04-02 14:55:31.651 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"modal.html"}" to all listeners.[0m
+2022-04-02 14:55:31.667 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2022-04-02 14:55:31.667 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting E:\Projects\manojtask\app\scripts\app.js[0m
+2022-04-02 14:55:34.674 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2022-04-02 14:55:38.460 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"modal.html"}" to all listeners.[0m
+2022-04-02 14:55:38.460 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"modal.html"}" to all listeners.[0m
+2022-04-02 14:55:38.461 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"modal.html"}" to all listeners.[0m
+2022-04-02 14:55:38.467 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2022-04-02 14:55:38.485 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2022-04-02 14:55:38.485 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting E:\Projects\manojtask\app\scripts\app.js[0m
+2022-04-02 14:55:40.678 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2022-04-02 14:55:48.787 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 14:55:48.788 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 14:55:48.794 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 14:55:48.794 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 14:55:48.813 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 14:55:48.813 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 14:55:48.818 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 14:55:48.818 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 14:55:48.823 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 14:55:48.823 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 14:55:48.837 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 14:55:48.837 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 14:55:48.838 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2022-04-02 14:55:48.845 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 14:55:48.845 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 14:55:48.862 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2022-04-02 14:55:48.863 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting E:\Projects\manojtask\app\scripts\app.js[0m
+2022-04-02 14:55:50.540 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /modal.html[0m
+2022-04-02 14:55:50.908 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2022-04-02 14:56:36.254 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /modal.html[0m
+2022-04-02 14:56:36.929 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2022-04-02 15:02:22.260 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /modal.html[0m
+2022-04-02 15:02:22.926 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2022-04-02 15:05:03.849 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"index.html"}" to all listeners.[0m
+2022-04-02 15:05:03.861 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"index.html"}" to all listeners.[0m
+2022-04-02 15:05:03.863 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2022-04-02 15:05:03.872 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2022-04-02 15:05:03.886 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2022-04-02 15:05:03.887 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting E:\Projects\manojtask\app\scripts\app.js[0m
+2022-04-02 15:05:06.675 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2022-04-02 15:05:39.845 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"modal.html"}" to all listeners.[0m
+2022-04-02 15:05:39.846 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"modal.html"}" to all listeners.[0m
+2022-04-02 15:05:39.852 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2022-04-02 15:05:39.857 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"modal.html"}" to all listeners.[0m
+2022-04-02 15:05:39.871 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2022-04-02 15:05:39.872 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting E:\Projects\manojtask\app\scripts\app.js[0m
+2022-04-02 15:05:42.680 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2022-04-02 15:06:13.213 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 15:06:13.214 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 15:06:13.221 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 15:06:13.221 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 15:06:13.249 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 15:06:13.250 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 15:06:13.256 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 15:06:13.256 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 15:06:13.264 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 15:06:13.264 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 15:06:13.284 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2022-04-02 15:06:13.287 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 15:06:13.287 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 15:06:13.301 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 15:06:13.301 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 15:06:13.313 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2022-04-02 15:06:13.314 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting E:\Projects\manojtask\app\scripts\app.js[0m
+2022-04-02 15:06:14.829 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /modal.html[0m
+2022-04-02 15:06:15.371 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2022-04-02 15:06:17.332 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /modal.html[0m
+2022-04-02 15:06:36.237 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"modal.html"}" to all listeners.[0m
+2022-04-02 15:06:36.238 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"modal.html"}" to all listeners.[0m
+2022-04-02 15:06:36.246 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2022-04-02 15:06:36.249 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"modal.html"}" to all listeners.[0m
+2022-04-02 15:06:36.253 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2022-04-02 15:06:36.271 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2022-04-02 15:06:36.272 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting E:\Projects\manojtask\app\scripts\app.js[0m
+2022-04-02 15:06:38.676 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2022-04-02 15:06:48.308 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2022-04-02 15:06:48.570 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /modal.html[0m
+2022-04-02 15:07:12.713 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"scripts\\app.js"}" to all listeners.[0m
+2022-04-02 15:07:12.714 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"scripts\\app.js"}" to all listeners.[0m
+2022-04-02 15:07:12.715 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"scripts\\app.js"}" to all listeners.[0m
+2022-04-02 15:07:12.731 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2022-04-02 15:07:12.731 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /modal.html[0m
+2022-04-02 15:07:12.752 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2022-04-02 15:07:12.761 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting E:\Projects\manojtask\app\scripts\app.js[0m
+2022-04-02 15:07:14.819 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2022-04-02 15:07:20.091 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 15:07:20.091 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 15:07:20.099 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 15:07:20.099 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 15:07:20.125 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 15:07:20.125 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 15:07:20.130 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 15:07:20.131 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 15:07:20.136 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 15:07:20.137 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 15:07:20.150 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 15:07:20.150 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 15:07:20.152 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2022-04-02 15:07:20.160 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 15:07:20.160 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 15:07:20.173 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2022-04-02 15:07:20.173 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting E:\Projects\manojtask\app\scripts\app.js[0m
+2022-04-02 15:07:21.511 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /modal.html[0m
+2022-04-02 15:07:22.230 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2022-04-02 15:11:28.593 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"modal.html"}" to all listeners.[0m
+2022-04-02 15:11:28.595 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"modal.html"}" to all listeners.[0m
+2022-04-02 15:11:28.606 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"modal.html"}" to all listeners.[0m
+2022-04-02 15:11:28.607 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2022-04-02 15:11:28.609 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /modal.html[0m
+2022-04-02 15:11:28.622 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /modal.html[0m
+2022-04-02 15:11:28.623 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2022-04-02 15:11:28.655 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2022-04-02 15:11:28.655 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting E:\Projects\manojtask\app\scripts\app.js[0m
+2022-04-02 15:11:31.230 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2022-04-02 15:11:33.941 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 15:11:33.941 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 15:11:33.946 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 15:11:33.946 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 15:11:33.963 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 15:11:33.963 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 15:11:33.968 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 15:11:33.968 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 15:11:33.974 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 15:11:33.974 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 15:11:33.998 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2022-04-02 15:11:34.000 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 15:11:34.000 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 15:11:34.012 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 15:11:34.013 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 15:11:34.020 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2022-04-02 15:11:34.021 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting E:\Projects\manojtask\app\scripts\app.js[0m
+2022-04-02 15:11:35.192 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /modal.html[0m
+2022-04-02 15:11:36.070 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2022-04-02 15:16:40.802 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"modal.html"}" to all listeners.[0m
+2022-04-02 15:16:40.803 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"modal.html"}" to all listeners.[0m
+2022-04-02 15:16:40.814 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"modal.html"}" to all listeners.[0m
+2022-04-02 15:16:40.816 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2022-04-02 15:16:40.818 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /modal.html[0m
+2022-04-02 15:16:40.833 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2022-04-02 15:16:40.834 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /modal.html[0m
+2022-04-02 15:16:40.855 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2022-04-02 15:16:40.855 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting E:\Projects\manojtask\app\scripts\app.js[0m
+2022-04-02 15:16:42.910 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2022-04-02 15:16:45.774 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 15:16:45.774 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 15:16:45.781 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 15:16:45.781 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 15:16:45.798 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 15:16:45.798 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 15:16:45.802 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 15:16:45.802 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 15:16:45.807 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 15:16:45.807 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 15:16:45.822 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2022-04-02 15:16:45.823 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 15:16:45.824 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 15:16:45.833 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 15:16:45.833 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 15:16:45.840 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2022-04-02 15:16:45.840 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting E:\Projects\manojtask\app\scripts\app.js[0m
+2022-04-02 15:16:47.404 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /modal.html[0m
+2022-04-02 15:16:47.909 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2022-04-02 15:17:51.877 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /modal.html[0m
+2022-04-02 15:17:51.898 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2022-04-02 15:19:04.405 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"modal.html"}" to all listeners.[0m
+2022-04-02 15:19:04.405 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"modal.html"}" to all listeners.[0m
+2022-04-02 15:19:04.406 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"modal.html"}" to all listeners.[0m
+2022-04-02 15:19:04.416 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2022-04-02 15:19:04.433 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2022-04-02 15:19:04.433 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting E:\Projects\manojtask\app\scripts\app.js[0m
+2022-04-02 15:19:06.463 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2022-04-02 15:28:16.459 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 15:28:16.459 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 15:28:16.466 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 15:28:16.466 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 15:28:16.496 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 15:28:16.496 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 15:28:16.502 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 15:28:16.502 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 15:28:16.508 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 15:28:16.508 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 15:28:16.531 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 15:28:16.531 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 15:28:16.532 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2022-04-02 15:28:16.538 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 15:28:16.538 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 15:28:16.552 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2022-04-02 15:28:16.553 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting E:\Projects\manojtask\app\scripts\app.js[0m
+2022-04-02 15:28:18.620 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2022-04-02 15:28:23.758 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /modal.html[0m
+2022-04-02 15:28:24.608 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2022-04-02 15:28:25.743 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /modal.html[0m
+2022-04-02 15:28:39.167 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /modal.html[0m
+2022-04-02 15:29:20.227 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"modal.html"}" to all listeners.[0m
+2022-04-02 15:29:20.229 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"modal.html"}" to all listeners.[0m
+2022-04-02 15:29:20.237 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2022-04-02 15:29:20.237 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /modal.html[0m
+2022-04-02 15:29:20.250 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"modal.html"}" to all listeners.[0m
+2022-04-02 15:29:20.256 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2022-04-02 15:29:20.256 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting E:\Projects\manojtask\app\scripts\app.js[0m
+2022-04-02 15:29:20.272 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /modal.html[0m
+2022-04-02 15:29:22.511 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2022-04-02 15:33:17.549 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /modal.html[0m
+2022-04-02 15:33:24.393 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /modal.html[0m
+2022-04-02 15:36:43.638 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"modal.html"}" to all listeners.[0m
+2022-04-02 15:36:43.639 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"modal.html"}" to all listeners.[0m
+2022-04-02 15:36:43.647 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2022-04-02 15:36:43.648 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /modal.html[0m
+2022-04-02 15:36:43.681 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"modal.html"}" to all listeners.[0m
+2022-04-02 15:36:43.684 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2022-04-02 15:36:43.684 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting E:\Projects\manojtask\app\scripts\app.js[0m
+2022-04-02 15:36:43.712 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /modal.html[0m
+2022-04-02 15:36:45.722 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2022-04-02 15:36:50.228 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 15:36:50.228 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 15:36:50.236 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 15:36:50.237 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 15:36:50.258 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 15:36:50.258 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 15:36:50.266 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 15:36:50.266 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 15:36:50.272 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 15:36:50.272 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 15:36:50.292 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2022-04-02 15:36:50.294 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 15:36:50.295 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 15:36:50.307 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 15:36:50.307 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 15:36:50.377 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2022-04-02 15:36:50.378 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting E:\Projects\manojtask\app\scripts\app.js[0m
+2022-04-02 15:36:52.438 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2022-04-02 15:36:52.505 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /modal.html[0m
+2022-04-02 15:39:36.731 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"scripts"}" to all listeners.[0m
+2022-04-02 15:39:36.780 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2022-04-02 15:39:36.829 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2022-04-02 15:39:36.830 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting E:\Projects\manojtask\app\scripts\app.js[0m
+2022-04-02 15:39:39.677 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2022-04-02 15:40:33.801 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"modal.html"}" to all listeners.[0m
+2022-04-02 15:40:33.801 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"modal.html"}" to all listeners.[0m
+2022-04-02 15:40:33.808 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2022-04-02 15:40:33.812 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"modal.html"}" to all listeners.[0m
+2022-04-02 15:40:33.828 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2022-04-02 15:40:33.829 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting E:\Projects\manojtask\app\scripts\app.js[0m
+2022-04-02 15:40:35.876 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2022-04-02 15:40:39.023 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 15:40:39.023 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 15:40:39.029 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 15:40:39.029 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 15:40:39.047 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 15:40:39.047 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 15:40:39.052 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 15:40:39.052 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 15:40:39.057 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 15:40:39.057 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 15:40:39.069 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2022-04-02 15:40:39.071 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 15:40:39.071 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 15:40:39.082 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 15:40:39.082 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 15:40:39.089 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2022-04-02 15:40:39.090 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting E:\Projects\manojtask\app\scripts\app.js[0m
+2022-04-02 15:40:41.143 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2022-04-02 15:41:36.454 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 15:41:36.454 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 15:41:43.454 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 15:41:43.454 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 15:41:43.460 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 15:41:43.461 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 15:41:43.476 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 15:41:43.476 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 15:41:43.481 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 15:41:43.481 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 15:41:43.485 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 15:41:43.485 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 15:41:43.497 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 15:41:43.498 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 15:41:43.498 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2022-04-02 15:41:43.504 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 15:41:43.504 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 15:41:43.519 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2022-04-02 15:41:43.520 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting E:\Projects\manojtask\app\scripts\app.js[0m
+2022-04-02 15:41:45.559 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2022-04-02 15:43:29.960 +0530 [info] 
+NOTE: We recommend a coverage of 80% for apps that are to be published in the public marketplace.
+2022-04-02 15:43:49.410 +0530 [debug] ([34mlogger.js[0m) [31mStarting FDK in node v12.0.0 on win32[0m
+2022-04-02 15:43:50.240 +0530 [debug] ([34msequelize.js[0m) [31msetting up sqilite at "E:\Projects\manojtask/.fdk/store.sqlite"[0m
+2022-04-02 15:43:50.355 +0530 [debug] ([34mindex.js[0m) [31mRunning with args {"cmd":"run","gopts":{},"opts":{},"goptArg":{},"optArg":{},"args":[]}[0m
+2022-04-02 15:43:50.356 +0530 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<7","message":"This FDK version has been deprecated and will no longer receive updates. To move to the latest version, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606"},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"7.5.1","command":"npm install https://dl.freshdev.io/cli/fdk-7.5.1.tgz -g","message":""}},"addon":{"version":"1.10.0","url":"https://dl.freshdev.io/cli-addon/addon-1.10.0.zip"}},"last_updated":{"time_stamp":1648890288146}}[0m
+2022-04-02 15:43:50.356 +0530 [debug] ([34mupdater.js[0m) [31mlast check less than an day ago, not looking for updates[0m
+2022-04-02 15:43:50.718 +0530 [debug] ([34mmanifest.js[0m) [31mReloading manifest with {"platform-version":"2.2","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"index.html","icon":"styles/images/icon.svg"}}}},"whitelisted-domains":[],"engines":{"node":"12.0.0","fdk":"7.5.1"}}.[0m
+2022-04-02 15:43:50.718 +0530 [debug] ([34mmanifest.js[0m) [31mInferred db as features.[0m
+2022-04-02 15:43:50.721 +0530 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<7","message":"This FDK version has been deprecated and will no longer receive updates. To move to the latest version, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606"},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"7.5.1","command":"npm install https://dl.freshdev.io/cli/fdk-7.5.1.tgz -g","message":""}},"addon":{"version":"1.10.0","url":"https://dl.freshdev.io/cli-addon/addon-1.10.0.zip"}},"last_updated":{"time_stamp":1648890288146}}[0m
+2022-04-02 15:43:50.736 +0530 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<7","message":"This FDK version has been deprecated and will no longer receive updates. To move to the latest version, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606"},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"7.5.1","command":"npm install https://dl.freshdev.io/cli/fdk-7.5.1.tgz -g","message":""}},"addon":{"version":"1.10.0","url":"https://dl.freshdev.io/cli-addon/addon-1.10.0.zip"}},"last_updated":{"time_stamp":1648890288146}}[0m
+2022-04-02 15:43:52.390 +0530 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<7","message":"This FDK version has been deprecated and will no longer receive updates. To move to the latest version, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606"},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"7.5.1","command":"npm install https://dl.freshdev.io/cli/fdk-7.5.1.tgz -g","message":""}},"addon":{"version":"1.10.0","url":"https://dl.freshdev.io/cli-addon/addon-1.10.0.zip"}},"last_updated":{"time_stamp":1648890288146}}[0m
+2022-04-02 15:43:53.325 +0530 [debug] ([34mvalidate.js[0m) [31masked to skip the following validations, [0m
+2022-04-02 15:43:53.325 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator actions[0m
+2022-04-02 15:43:53.325 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator app-dir[0m
+2022-04-02 15:43:53.326 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator config-dir[0m
+2022-04-02 15:43:53.326 +0530 [debug] ([34mconfig-dir.js[0m) [31mChecking to see if E:\Projects\manojtask/config/ exists.[0m
+2022-04-02 15:43:53.326 +0530 [debug] ([34mconfig-dir.js[0m) [31mFetched the following config files iparams.json[0m
+2022-04-02 15:43:53.326 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator custom-objects[0m
+2022-04-02 15:43:53.326 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator event[0m
+2022-04-02 15:43:53.327 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator iparam[0m
+2022-04-02 15:43:53.329 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator lint[0m
+2022-04-02 15:43:53.329 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator manifest[0m
+2022-04-02 15:43:53.329 +0530 [debug] ([34mmanifest.js[0m) [31mrunning manifest validation with type run_validation[0m
+2022-04-02 15:43:53.329 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator manifest-dependency[0m
+2022-04-02 15:43:53.329 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator oauth[0m
+2022-04-02 15:43:53.329 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator pkgsize[0m
+2022-04-02 15:43:53.329 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator schema[0m
+2022-04-02 15:43:53.329 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator version-check[0m
+2022-04-02 15:43:53.333 +0530 [debug] ([34mwatcher.js[0m) [31mPreparing to watch the following files ./app,./config,./manifest.json[0m
+2022-04-02 15:43:53.336 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 15:43:53.336 +0530 [debug] ([34mcustom-objects.js[0m) [31mto force or not? false[0m
+2022-04-02 15:43:53.336 +0530 [debug] ([34mcustom-objects.js[0m) [31mbeginning to re-sync db[0m
+2022-04-02 15:43:53.455 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\BNK\AppData\Roaming\nvm\v12.0.0\node_modules\fdk\lib\models\bigint-pivot.js"[0m
+2022-04-02 15:43:53.457 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\BNK\AppData\Roaming\nvm\v12.0.0\node_modules\fdk\lib\models\entity-field-choice.js"[0m
+2022-04-02 15:43:53.457 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\BNK\AppData\Roaming\nvm\v12.0.0\node_modules\fdk\lib\models\entity-field.js"[0m
+2022-04-02 15:43:53.458 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\BNK\AppData\Roaming\nvm\v12.0.0\node_modules\fdk\lib\models\entity.js"[0m
+2022-04-02 15:43:53.459 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\BNK\AppData\Roaming\nvm\v12.0.0\node_modules\fdk\lib\models\record.js"[0m
+2022-04-02 15:43:53.459 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\BNK\AppData\Roaming\nvm\v12.0.0\node_modules\fdk\lib\models\string-pivot.js"[0m
+2022-04-02 15:43:53.475 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 15:43:53.476 +0530 [debug] ([34mcustom-objects.js[0m) [31mupdated local store with latest entity hash[0m
+2022-04-02 15:43:53.478 +0530 [info] Starting local testing server at http://*:10001/    
+Append 'dev=true' to your Freshdesk account URL to start testing    
+e.g. https://domain.freshdesk.com/a/tickets/1?dev=true    
+Quit the server with Control-C.
+2022-04-02 15:43:56.454 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 15:43:56.455 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 15:43:56.465 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 15:43:56.466 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 15:43:56.492 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 15:43:56.492 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 15:43:56.499 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 15:43:56.499 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 15:43:56.506 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 15:43:56.506 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 15:43:56.527 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 15:43:56.527 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 15:43:56.532 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2022-04-02 15:43:56.542 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 15:43:56.542 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 15:43:56.622 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2022-04-02 15:43:56.623 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting E:\Projects\manojtask\app\scripts\app.js[0m
+2022-04-02 15:43:58.772 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2022-04-02 15:45:00.575 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"scripts\\create-ticket.js"}" to all listeners.[0m
+2022-04-02 15:45:00.592 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2022-04-02 15:45:00.613 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2022-04-02 15:45:00.614 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting E:\Projects\manojtask\app\scripts\app.js[0m
+2022-04-02 15:45:00.973 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"scripts"}" to all listeners.[0m
+2022-04-02 15:45:00.979 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2022-04-02 15:45:01.008 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2022-04-02 15:45:01.009 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting E:\Projects\manojtask\app\scripts\app.js[0m
+2022-04-02 15:45:03.361 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"scripts\\create-ticket.js"}" to all listeners.[0m
+2022-04-02 15:45:03.362 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"scripts\\create-ticket.js"}" to all listeners.[0m
+2022-04-02 15:45:03.368 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2022-04-02 15:45:03.388 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2022-04-02 15:45:03.388 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting E:\Projects\manojtask\app\scripts\app.js[0m
+2022-04-02 15:45:05.701 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2022-04-02 15:45:06.268 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"modal.html"}" to all listeners.[0m
+2022-04-02 15:45:06.269 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"modal.html"}" to all listeners.[0m
+2022-04-02 15:45:06.270 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"modal.html"}" to all listeners.[0m
+2022-04-02 15:45:06.278 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2022-04-02 15:45:06.300 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2022-04-02 15:45:06.302 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting E:\Projects\manojtask\app\scripts\app.js[0m
+2022-04-02 15:45:08.682 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2022-04-02 15:45:19.392 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"modal.html"}" to all listeners.[0m
+2022-04-02 15:45:19.392 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"modal.html"}" to all listeners.[0m
+2022-04-02 15:45:19.393 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"modal.html"}" to all listeners.[0m
+2022-04-02 15:45:19.403 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2022-04-02 15:45:19.422 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2022-04-02 15:45:19.422 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting E:\Projects\manojtask\app\scripts\app.js[0m
+2022-04-02 15:45:21.464 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2022-04-02 15:45:26.742 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 15:45:26.742 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 15:45:26.750 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 15:45:26.750 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 15:45:26.774 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 15:45:26.774 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 15:45:26.781 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 15:45:26.781 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 15:45:26.788 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 15:45:26.788 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 15:45:26.818 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2022-04-02 15:45:26.820 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 15:45:26.821 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 15:45:26.858 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 15:45:26.859 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 15:45:26.868 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2022-04-02 15:45:26.869 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting E:\Projects\manojtask\app\scripts\app.js[0m
+2022-04-02 15:45:28.971 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2022-04-02 15:45:49.799 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 15:45:49.799 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 15:45:49.809 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 15:45:49.809 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 15:45:49.840 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 15:45:49.840 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 15:45:50.262 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 15:45:50.262 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 15:45:50.282 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2022-04-02 15:45:50.315 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2022-04-02 15:45:50.315 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting E:\Projects\manojtask\app\scripts\app.js[0m
+2022-04-02 15:45:50.462 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 15:45:50.462 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 15:45:50.478 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 15:45:50.478 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 15:45:50.567 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 15:45:50.568 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 15:45:52.385 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2022-04-02 15:45:57.301 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 15:45:57.301 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 15:45:57.307 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 15:45:57.308 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 15:45:57.680 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 15:45:57.681 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 15:45:57.705 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2022-04-02 15:45:57.744 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2022-04-02 15:45:57.745 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting E:\Projects\manojtask\app\scripts\app.js[0m
+2022-04-02 15:45:57.869 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 15:45:57.869 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 15:45:57.878 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 15:45:57.879 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 15:45:57.941 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 15:45:57.941 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 15:45:59.812 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2022-04-02 15:46:23.866 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 15:46:23.866 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 15:46:23.871 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 15:46:23.871 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 15:46:24.217 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 15:46:24.219 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 15:46:24.236 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2022-04-02 15:46:24.269 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2022-04-02 15:46:24.269 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting E:\Projects\manojtask\app\scripts\app.js[0m
+2022-04-02 15:46:24.335 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 15:46:24.335 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 15:46:24.347 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 15:46:24.348 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 15:46:24.523 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 15:46:24.523 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 15:46:26.412 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2022-04-02 15:46:58.423 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2022-04-02 15:46:58.611 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /modal.html[0m
+2022-04-02 15:46:58.640 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/create-ticket.js[0m
+2022-04-02 15:46:58.648 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting E:\Projects\manojtask\app\scripts\create-ticket.js[0m
+2022-04-02 15:47:00.669 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2022-04-02 18:57:02.273 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"scripts"}" to all listeners.[0m
+2022-04-02 18:57:02.278 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"styles\\images"}" to all listeners.[0m
+2022-04-02 18:57:02.278 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"styles"}" to all listeners.[0m
+2022-04-02 18:57:02.308 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"index.html"}" to all listeners.[0m
+2022-04-02 18:57:02.309 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"iparams.json"}" to all listeners.[0m
+2022-04-02 18:57:02.309 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"modal.html"}" to all listeners.[0m
+2022-04-02 18:57:02.310 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"scripts\\app.js"}" to all listeners.[0m
+2022-04-02 18:57:02.310 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"scripts\\create-ticket.js"}" to all listeners.[0m
+2022-04-02 18:57:02.310 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"styles\\images\\icon.svg"}" to all listeners.[0m
+2022-04-02 18:57:02.311 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"styles\\style.css"}" to all listeners.[0m
+2022-04-02 18:57:02.317 +0530 [debug] ([34mmanifest.js[0m) [31mReloading manifest with {"platform-version":"2.2","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"index.html","icon":"styles/images/icon.svg"}}}},"whitelisted-domains":[],"engines":{"node":"12.0.0","fdk":"7.5.1"}}.[0m
+2022-04-02 18:57:02.320 +0530 [debug] ([34mmanifest.js[0m) [31mInferred db as features.[0m
+2022-04-02 18:57:02.320 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"manifest.json"}" to all listeners.[0m
+2022-04-02 18:57:02.321 +0530 [debug] ([34mmanifest.js[0m) [31mReloading manifest with {"platform-version":"2.2","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"index.html","icon":"styles/images/icon.svg"}}}},"whitelisted-domains":[],"engines":{"node":"12.0.0","fdk":"7.5.1"}}.[0m
+2022-04-02 18:57:02.321 +0530 [debug] ([34mmanifest.js[0m) [31mInferred db as features.[0m
+2022-04-02 18:57:02.322 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"manifest.json"}" to all listeners.[0m
+2022-04-02 18:57:17.749 +0530 [info] 
+NOTE: We recommend a coverage of 80% for apps that are to be published in the public marketplace.
+2022-04-02 18:57:59.097 +0530 [debug] ([34mlogger.js[0m) [31mStarting FDK in node v12.0.0 on win32[0m
+2022-04-02 18:58:06.480 +0530 [debug] ([34msequelize.js[0m) [31msetting up sqilite at "E:\Projects\manojtask/.fdk/store.sqlite"[0m
+2022-04-02 18:58:07.506 +0530 [debug] ([34mindex.js[0m) [31mRunning with args {"cmd":"run","gopts":{},"opts":{},"goptArg":{},"optArg":{},"args":[]}[0m
+2022-04-02 18:58:07.510 +0530 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<7","message":"This FDK version has been deprecated and will no longer receive updates. To move to the latest version, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606"},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"7.5.1","command":"npm install https://dl.freshdev.io/cli/fdk-7.5.1.tgz -g","message":""}},"addon":{"version":"1.10.0","url":"https://dl.freshdev.io/cli-addon/addon-1.10.0.zip"}},"last_updated":{"time_stamp":1648890288146}}[0m
+2022-04-02 18:58:07.510 +0530 [debug] ([34mupdater.js[0m) [31mlast check less than an day ago, not looking for updates[0m
+2022-04-02 18:58:08.834 +0530 [debug] ([34mmanifest.js[0m) [31mReloading manifest with {"platform-version":"2.2","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"index.html","icon":"styles/images/icon.svg"}}}},"whitelisted-domains":[],"engines":{"node":"12.0.0","fdk":"7.5.1"}}.[0m
+2022-04-02 18:58:08.835 +0530 [debug] ([34mmanifest.js[0m) [31mInferred db as features.[0m
+2022-04-02 18:58:08.850 +0530 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<7","message":"This FDK version has been deprecated and will no longer receive updates. To move to the latest version, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606"},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"7.5.1","command":"npm install https://dl.freshdev.io/cli/fdk-7.5.1.tgz -g","message":""}},"addon":{"version":"1.10.0","url":"https://dl.freshdev.io/cli-addon/addon-1.10.0.zip"}},"last_updated":{"time_stamp":1648890288146}}[0m
+2022-04-02 18:58:08.927 +0530 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<7","message":"This FDK version has been deprecated and will no longer receive updates. To move to the latest version, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606"},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"7.5.1","command":"npm install https://dl.freshdev.io/cli/fdk-7.5.1.tgz -g","message":""}},"addon":{"version":"1.10.0","url":"https://dl.freshdev.io/cli-addon/addon-1.10.0.zip"}},"last_updated":{"time_stamp":1648890288146}}[0m
+2022-04-02 18:58:19.656 +0530 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<7","message":"This FDK version has been deprecated and will no longer receive updates. To move to the latest version, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606"},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"7.5.1","command":"npm install https://dl.freshdev.io/cli/fdk-7.5.1.tgz -g","message":""}},"addon":{"version":"1.10.0","url":"https://dl.freshdev.io/cli-addon/addon-1.10.0.zip"}},"last_updated":{"time_stamp":1648890288146}}[0m
+2022-04-02 18:58:26.275 +0530 [debug] ([34mvalidate.js[0m) [31masked to skip the following validations, [0m
+2022-04-02 18:58:26.275 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator actions[0m
+2022-04-02 18:58:26.275 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator app-dir[0m
+2022-04-02 18:58:26.276 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator config-dir[0m
+2022-04-02 18:58:26.276 +0530 [debug] ([34mconfig-dir.js[0m) [31mChecking to see if E:\Projects\manojtask/config/ exists.[0m
+2022-04-02 18:58:26.276 +0530 [debug] ([34mconfig-dir.js[0m) [31mFetched the following config files iparams.json[0m
+2022-04-02 18:58:26.276 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator custom-objects[0m
+2022-04-02 18:58:26.276 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator event[0m
+2022-04-02 18:58:26.276 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator iparam[0m
+2022-04-02 18:58:26.278 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator lint[0m
+2022-04-02 18:58:26.279 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator manifest[0m
+2022-04-02 18:58:26.279 +0530 [debug] ([34mmanifest.js[0m) [31mrunning manifest validation with type run_validation[0m
+2022-04-02 18:58:26.279 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator manifest-dependency[0m
+2022-04-02 18:58:26.279 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator oauth[0m
+2022-04-02 18:58:26.279 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator pkgsize[0m
+2022-04-02 18:58:26.279 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator schema[0m
+2022-04-02 18:58:26.279 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator version-check[0m
+2022-04-02 18:58:26.283 +0530 [debug] ([34mwatcher.js[0m) [31mPreparing to watch the following files ./app,./config,./manifest.json[0m
+2022-04-02 18:58:26.286 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 18:58:26.287 +0530 [debug] ([34mcustom-objects.js[0m) [31mto force or not? false[0m
+2022-04-02 18:58:26.287 +0530 [debug] ([34mcustom-objects.js[0m) [31mbeginning to re-sync db[0m
+2022-04-02 18:58:26.342 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 18:58:26.343 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 18:58:26.558 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\BNK\AppData\Roaming\nvm\v12.0.0\node_modules\fdk\lib\models\bigint-pivot.js"[0m
+2022-04-02 18:58:26.591 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\BNK\AppData\Roaming\nvm\v12.0.0\node_modules\fdk\lib\models\entity-field-choice.js"[0m
+2022-04-02 18:58:26.604 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\BNK\AppData\Roaming\nvm\v12.0.0\node_modules\fdk\lib\models\entity-field.js"[0m
+2022-04-02 18:58:26.618 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\BNK\AppData\Roaming\nvm\v12.0.0\node_modules\fdk\lib\models\entity.js"[0m
+2022-04-02 18:58:26.630 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\BNK\AppData\Roaming\nvm\v12.0.0\node_modules\fdk\lib\models\record.js"[0m
+2022-04-02 18:58:26.640 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\BNK\AppData\Roaming\nvm\v12.0.0\node_modules\fdk\lib\models\string-pivot.js"[0m
+2022-04-02 18:58:26.679 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 18:58:26.682 +0530 [debug] ([34mcustom-objects.js[0m) [31mupdated local store with latest entity hash[0m
+2022-04-02 18:58:26.685 +0530 [info] Starting local testing server at http://*:10001/    
+Append 'dev=true' to your Freshdesk account URL to start testing    
+e.g. https://domain.freshdesk.com/a/tickets/1?dev=true    
+Quit the server with Control-C.
+2022-04-02 18:58:28.763 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 18:58:28.763 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 18:58:28.768 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 18:58:28.768 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 18:58:28.787 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 18:58:28.787 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 18:58:28.795 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 18:58:28.796 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 18:58:28.801 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 18:58:28.801 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 18:58:28.821 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 18:58:28.821 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 18:58:28.824 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2022-04-02 18:58:28.833 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 18:58:28.833 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 18:58:28.855 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2022-04-02 18:58:28.856 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting E:\Projects\manojtask\app\scripts\app.js[0m
+2022-04-02 18:58:30.030 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /modal.html[0m
+2022-04-02 18:58:30.042 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/create-ticket.js[0m
+2022-04-02 18:58:30.053 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting E:\Projects\manojtask\app\scripts\create-ticket.js[0m
+2022-04-02 18:58:31.084 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2022-04-02 18:59:04.043 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 18:59:04.043 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 18:59:08.266 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 18:59:08.266 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 18:59:36.531 +0530 [info] 
+NOTE: We recommend a coverage of 80% for apps that are to be published in the public marketplace.
+2022-04-02 19:01:16.447 +0530 [debug] ([34mlogger.js[0m) [31mStarting FDK in node v12.0.0 on win32[0m
+2022-04-02 19:01:16.958 +0530 [debug] ([34msequelize.js[0m) [31msetting up sqilite at "E:\Projects\manojtask/.fdk/store.sqlite"[0m
+2022-04-02 19:01:17.025 +0530 [debug] ([34mindex.js[0m) [31mRunning with args {"cmd":"run","gopts":{},"opts":{},"goptArg":{},"optArg":{},"args":[]}[0m
+2022-04-02 19:01:17.025 +0530 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<7","message":"This FDK version has been deprecated and will no longer receive updates. To move to the latest version, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606"},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"7.5.1","command":"npm install https://dl.freshdev.io/cli/fdk-7.5.1.tgz -g","message":""}},"addon":{"version":"1.10.0","url":"https://dl.freshdev.io/cli-addon/addon-1.10.0.zip"}},"last_updated":{"time_stamp":1648890288146}}[0m
+2022-04-02 19:01:17.025 +0530 [debug] ([34mupdater.js[0m) [31mlast check less than an day ago, not looking for updates[0m
+2022-04-02 19:01:17.179 +0530 [debug] ([34mmanifest.js[0m) [31mReloading manifest with {"platform-version":"2.2","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"index.html","icon":"styles/images/icon.svg"}}}},"whitelisted-domains":[],"engines":{"node":"12.0.0","fdk":"7.5.1"}}.[0m
+2022-04-02 19:01:17.179 +0530 [debug] ([34mmanifest.js[0m) [31mInferred db as features.[0m
+2022-04-02 19:01:17.180 +0530 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<7","message":"This FDK version has been deprecated and will no longer receive updates. To move to the latest version, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606"},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"7.5.1","command":"npm install https://dl.freshdev.io/cli/fdk-7.5.1.tgz -g","message":""}},"addon":{"version":"1.10.0","url":"https://dl.freshdev.io/cli-addon/addon-1.10.0.zip"}},"last_updated":{"time_stamp":1648890288146}}[0m
+2022-04-02 19:01:17.189 +0530 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<7","message":"This FDK version has been deprecated and will no longer receive updates. To move to the latest version, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606"},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"7.5.1","command":"npm install https://dl.freshdev.io/cli/fdk-7.5.1.tgz -g","message":""}},"addon":{"version":"1.10.0","url":"https://dl.freshdev.io/cli-addon/addon-1.10.0.zip"}},"last_updated":{"time_stamp":1648890288146}}[0m
+2022-04-02 19:01:18.119 +0530 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<7","message":"This FDK version has been deprecated and will no longer receive updates. To move to the latest version, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606"},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"7.5.1","command":"npm install https://dl.freshdev.io/cli/fdk-7.5.1.tgz -g","message":""}},"addon":{"version":"1.10.0","url":"https://dl.freshdev.io/cli-addon/addon-1.10.0.zip"}},"last_updated":{"time_stamp":1648890288146}}[0m
+2022-04-02 19:01:18.811 +0530 [debug] ([34mvalidate.js[0m) [31masked to skip the following validations, [0m
+2022-04-02 19:01:18.811 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator actions[0m
+2022-04-02 19:01:18.812 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator app-dir[0m
+2022-04-02 19:01:18.812 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator config-dir[0m
+2022-04-02 19:01:18.812 +0530 [debug] ([34mconfig-dir.js[0m) [31mChecking to see if E:\Projects\manojtask/config/ exists.[0m
+2022-04-02 19:01:18.812 +0530 [debug] ([34mconfig-dir.js[0m) [31mFetched the following config files iparams.json[0m
+2022-04-02 19:01:18.813 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator custom-objects[0m
+2022-04-02 19:01:18.813 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator event[0m
+2022-04-02 19:01:18.813 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator iparam[0m
+2022-04-02 19:01:18.815 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator lint[0m
+2022-04-02 19:01:18.815 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator manifest[0m
+2022-04-02 19:01:18.815 +0530 [debug] ([34mmanifest.js[0m) [31mrunning manifest validation with type run_validation[0m
+2022-04-02 19:01:18.815 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator manifest-dependency[0m
+2022-04-02 19:01:18.815 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator oauth[0m
+2022-04-02 19:01:18.815 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator pkgsize[0m
+2022-04-02 19:01:18.815 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator schema[0m
+2022-04-02 19:01:18.815 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator version-check[0m
+2022-04-02 19:01:18.819 +0530 [debug] ([34mwatcher.js[0m) [31mPreparing to watch the following files ./app,./config,./manifest.json[0m
+2022-04-02 19:01:18.822 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 19:01:18.822 +0530 [debug] ([34mcustom-objects.js[0m) [31mto force or not? false[0m
+2022-04-02 19:01:18.822 +0530 [debug] ([34mcustom-objects.js[0m) [31mbeginning to re-sync db[0m
+2022-04-02 19:01:18.939 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\BNK\AppData\Roaming\nvm\v12.0.0\node_modules\fdk\lib\models\bigint-pivot.js"[0m
+2022-04-02 19:01:18.940 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\BNK\AppData\Roaming\nvm\v12.0.0\node_modules\fdk\lib\models\entity-field-choice.js"[0m
+2022-04-02 19:01:18.940 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\BNK\AppData\Roaming\nvm\v12.0.0\node_modules\fdk\lib\models\entity-field.js"[0m
+2022-04-02 19:01:18.941 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\BNK\AppData\Roaming\nvm\v12.0.0\node_modules\fdk\lib\models\entity.js"[0m
+2022-04-02 19:01:18.941 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\BNK\AppData\Roaming\nvm\v12.0.0\node_modules\fdk\lib\models\record.js"[0m
+2022-04-02 19:01:18.942 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\BNK\AppData\Roaming\nvm\v12.0.0\node_modules\fdk\lib\models\string-pivot.js"[0m
+2022-04-02 19:01:18.954 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 19:01:18.955 +0530 [debug] ([34mcustom-objects.js[0m) [31mupdated local store with latest entity hash[0m
+2022-04-02 19:01:18.957 +0530 [info] Starting local testing server at http://*:10001/    
+Append 'dev=true' to your Freshdesk account URL to start testing    
+e.g. https://domain.freshdesk.com/a/tickets/1?dev=true    
+Quit the server with Control-C.
+2022-04-02 19:01:26.654 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 19:01:26.655 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 19:01:26.665 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 19:01:26.665 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 19:01:26.696 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 19:01:26.696 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 19:01:26.704 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 19:01:26.704 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 19:01:26.712 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 19:01:26.713 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 19:01:26.744 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2022-04-02 19:01:26.746 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 19:01:26.746 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 19:01:26.761 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 19:01:26.761 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 19:01:26.770 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2022-04-02 19:01:26.785 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting E:\Projects\manojtask\app\scripts\app.js[0m
+2022-04-02 19:01:28.939 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2022-04-02 19:01:28.973 +0530 [debug] ([34mcoverage-util.js[0m) [31mError ENOENT: no such file or directory, open 'app\scripts\create-ticket.js' while writing coverage report.[0m
+2022-04-02 19:01:28.973 +0530 [debug] ([34mcoverage-util.js[0m) [31mFlushing coverage.[0m
+2022-04-02 19:02:02.591 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"scripts\\app.js"}" to all listeners.[0m
+2022-04-02 19:02:02.592 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"scripts\\app.js"}" to all listeners.[0m
+2022-04-02 19:02:02.593 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"scripts\\app.js"}" to all listeners.[0m
+2022-04-02 19:02:02.610 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2022-04-02 19:02:02.636 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2022-04-02 19:02:02.646 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting E:\Projects\manojtask\app\scripts\app.js[0m
+2022-04-02 19:02:07.158 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 19:02:07.158 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 19:02:07.163 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 19:02:07.163 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 19:02:07.188 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 19:02:07.188 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 19:02:07.195 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 19:02:07.195 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 19:02:07.202 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 19:02:07.202 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 19:02:07.219 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2022-04-02 19:02:07.224 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 19:02:07.224 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 19:02:07.235 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-02 19:02:07.236 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-02 19:02:07.242 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2022-04-02 19:02:07.242 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting E:\Projects\manojtask\app\scripts\app.js[0m
+2022-04-02 19:02:09.325 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2022-04-02 19:02:51.956 +0530 [info] 
+NOTE: We recommend a coverage of 80% for apps that are to be published in the public marketplace.
+2022-04-02 19:03:01.353 +0530 [debug] ([34mlogger.js[0m) [31mStarting FDK in node v12.0.0 on win32[0m
+2022-04-02 19:03:01.936 +0530 [debug] ([34msequelize.js[0m) [31msetting up sqilite at "E:\Projects\manojtask/.fdk/store.sqlite"[0m
+2022-04-02 19:03:02.029 +0530 [debug] ([34mindex.js[0m) [31mRunning with args {"cmd":"pack","gopts":{},"opts":{},"goptArg":{},"optArg":{},"args":[]}[0m
+2022-04-02 19:03:02.030 +0530 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<7","message":"This FDK version has been deprecated and will no longer receive updates. To move to the latest version, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606"},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"7.5.1","command":"npm install https://dl.freshdev.io/cli/fdk-7.5.1.tgz -g","message":""}},"addon":{"version":"1.10.0","url":"https://dl.freshdev.io/cli-addon/addon-1.10.0.zip"}},"last_updated":{"time_stamp":1648890288146}}[0m
+2022-04-02 19:03:02.030 +0530 [debug] ([34mupdater.js[0m) [31mlast check less than an day ago, not looking for updates[0m
+2022-04-02 19:03:02.076 +0530 [debug] ([34mmanifest.js[0m) [31mReloading manifest with {"platform-version":"2.2","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"index.html","icon":"styles/images/icon.svg"}}}},"whitelisted-domains":[],"engines":{"node":"12.0.0","fdk":"7.5.1"}}.[0m
+2022-04-02 19:03:02.076 +0530 [debug] ([34mmanifest.js[0m) [31mInferred db as features.[0m
+2022-04-02 19:03:02.076 +0530 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<7","message":"This FDK version has been deprecated and will no longer receive updates. To move to the latest version, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606"},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"7.5.1","command":"npm install https://dl.freshdev.io/cli/fdk-7.5.1.tgz -g","message":""}},"addon":{"version":"1.10.0","url":"https://dl.freshdev.io/cli-addon/addon-1.10.0.zip"}},"last_updated":{"time_stamp":1648890288146}}[0m
+2022-04-02 19:03:03.013 +0530 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<7","message":"This FDK version has been deprecated and will no longer receive updates. To move to the latest version, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606"},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"7.5.1","command":"npm install https://dl.freshdev.io/cli/fdk-7.5.1.tgz -g","message":""}},"addon":{"version":"1.10.0","url":"https://dl.freshdev.io/cli-addon/addon-1.10.0.zip"}},"last_updated":{"time_stamp":1648890288146}}[0m
+2022-04-02 19:03:03.485 +0530 [debug] ([34mpack.js[0m) [31m'pack' called with {}[0m
+2022-04-02 19:03:03.485 +0530 [debug] ([34mvalidate.js[0m) [31masked to skip the following validations, [0m
+2022-04-02 19:03:03.486 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator actions[0m
+2022-04-02 19:03:03.486 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator app-dir[0m
+2022-04-02 19:03:03.487 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator config-dir[0m
+2022-04-02 19:03:03.487 +0530 [debug] ([34mconfig-dir.js[0m) [31mChecking to see if E:\Projects\manojtask/config/ exists.[0m
+2022-04-02 19:03:03.487 +0530 [debug] ([34mconfig-dir.js[0m) [31mFetched the following config files iparams.json[0m
+2022-04-02 19:03:03.487 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator custom-objects[0m
+2022-04-02 19:03:03.487 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator event[0m
+2022-04-02 19:03:03.487 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator iparam[0m
+2022-04-02 19:03:03.489 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator lint[0m
+2022-04-02 19:03:03.489 +0530 [debug] ([34mlint.js[0m) [31mpassed fix flag: undefined[0m
+2022-04-02 19:03:03.490 +0530 [debug] ([34mlint-util.js[0m) [31mRunning the following lints on the file app\scripts\app.js : no-caller,no-process-env,complexity,max-nested-callbacks,handle-callback-err,no-eval,no-alert,no-debugger,no-unreachable,no-unlisted-url,no-unhandled-promise,no-logging-rejections,no-non-client-request-model,no-cross-scope-assign,no-empty-function,no-unused-vars[0m
+2022-04-02 19:03:03.525 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator manifest[0m
+2022-04-02 19:03:03.525 +0530 [debug] ([34mmanifest.js[0m) [31mrunning manifest validation with type pre_pkg_validation[0m
+2022-04-02 19:03:03.525 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator manifest-dependency[0m
+2022-04-02 19:03:03.525 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator oauth[0m
+2022-04-02 19:03:03.525 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator pkgsize[0m
+2022-04-02 19:03:03.525 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator schema[0m
+2022-04-02 19:03:03.525 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator version-check[0m
+2022-04-02 19:03:03.530 +0530 [warn] Please ensure that the following are addressed for quick review process.
+2022-04-02 19:03:03.530 +0530 [warn] [33m[WARN][0m app\scripts\app.js::32: refrain from simply logging errors.
+2022-04-02 19:03:03.532 +0530 [error] 
+2022-04-02 19:03:03.533 +0530 [info] App being packed in Node v12.0.0 using FDK 7.5.1
+2022-04-02 19:03:03.544 +0530 [debug] ([34mpack.js[0m) [31mCannot find './visitor-app' directory while packing.[0m
+2022-04-02 19:03:03.544 +0530 [debug] ([34mpack.js[0m) [31mCannot find './src' directory while packing.[0m
+2022-04-02 19:03:03.544 +0530 [debug] ([34mpack.js[0m) [31mCannot find './server' directory while packing.[0m
+2022-04-02 19:03:03.547 +0530 [debug] ([34mfile-util.js[0m) [31mComputing digest for app\index.html,app\modal.html,app\scripts\app.js,app\styles\images\icon.svg,app\styles\style.css,manifest.json.[0m
+2022-04-02 19:03:03.548 +0530 [debug] ([34mpack.js[0m) [31mPacking ./app\index.html[0m
+2022-04-02 19:03:03.548 +0530 [debug] ([34mpack.js[0m) [31mPacking ./app\modal.html[0m
+2022-04-02 19:03:03.549 +0530 [debug] ([34mpack.js[0m) [31mPacking ./app\scripts\app.js[0m
+2022-04-02 19:03:03.549 +0530 [debug] ([34mpack.js[0m) [31mPacking ./app\styles\images\icon.svg[0m
+2022-04-02 19:03:03.549 +0530 [debug] ([34mpack.js[0m) [31mPacking ./app\styles\style.css[0m
+2022-04-02 19:03:03.549 +0530 [debug] ([34mpack.js[0m) [31mPacking ./config\iparams.json[0m
+2022-04-02 19:03:03.549 +0530 [debug] ([34mpack.js[0m) [31mPacking ./manifest.json[0m
+2022-04-02 19:03:03.549 +0530 [debug] ([34mpack.js[0m) [31mPacking ./.report.json[0m
+2022-04-02 19:03:03.549 +0530 [debug] ([34mpack.js[0m) [31mPacking ./README.md[0m
+2022-04-02 19:03:03.549 +0530 [debug] ([34mpack.js[0m) [31mPacking ./digest.md5[0m
+2022-04-02 19:03:03.579 +0530 [debug] ([34mvalidate.js[0m) [31masked to skip the following validations, [0m
+2022-04-02 19:03:03.579 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator actions[0m
+2022-04-02 19:03:03.580 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator app-dir[0m
+2022-04-02 19:03:03.580 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator config-dir[0m
+2022-04-02 19:03:03.580 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator custom-objects[0m
+2022-04-02 19:03:03.580 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator event[0m
+2022-04-02 19:03:03.580 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator iparam[0m
+2022-04-02 19:03:03.580 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator lint[0m
+2022-04-02 19:03:03.580 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator manifest[0m
+2022-04-02 19:03:03.580 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator manifest-dependency[0m
+2022-04-02 19:03:03.580 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator oauth[0m
+2022-04-02 19:03:03.580 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator pkgsize[0m
+2022-04-02 19:03:03.580 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator schema[0m
+2022-04-02 19:03:03.580 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator version-check[0m
+2022-04-02 19:03:03.581 +0530 [info] App packed successfully at \dist\manojtask.zip
+2022-04-02 19:03:03.585 +0530 [info] Upload this file to the marketplace by following the instructions at https://developer.freshdesk.com/v2/docs/freshdesk-apps/
+2022-04-02 19:03:03.585 +0530 [debug] ([34mfile-util.js[0m) [31mDeleting digest.[0m
+2022-04-04 19:20:38.230 +0530 [debug] ([34mlogger.js[0m) [31mStarting FDK in node v12.0.0 on win32[0m
+2022-04-04 19:20:56.817 +0530 [debug] ([34msequelize.js[0m) [31msetting up sqilite at "E:\Projects\manojtask/.fdk/store.sqlite"[0m
+2022-04-04 19:20:58.907 +0530 [debug] ([34mindex.js[0m) [31mRunning with args {"cmd":"run","gopts":{},"opts":{},"goptArg":{},"optArg":{},"args":[]}[0m
+2022-04-04 19:20:58.919 +0530 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<7","message":"This FDK version has been deprecated and will no longer receive updates. To move to the latest version, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606"},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"7.5.1","command":"npm install https://dl.freshdev.io/cli/fdk-7.5.1.tgz -g","message":""}},"addon":{"version":"1.10.0","url":"https://dl.freshdev.io/cli-addon/addon-1.10.0.zip"}},"last_updated":{"time_stamp":1648890288146}}[0m
+2022-04-04 19:20:58.919 +0530 [debug] ([34mupdater.js[0m) [31mlast check more than an day ago, looking for updates again[0m
+2022-04-04 19:20:59.175 +0530 [debug] ([34mupdater.js[0m) [31mdownloaded update manifest as {"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.0.0","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.0","url":"https://dl.freshdev.io/cli-addon/addon-1.10.0.zip"}}[0m
+2022-04-04 19:20:59.177 +0530 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<7","message":"This FDK version has been deprecated and will no longer receive updates. To move to the latest version, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606"},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"7.5.1","command":"npm install https://dl.freshdev.io/cli/fdk-7.5.1.tgz -g","message":""}},"addon":{"version":"1.10.0","url":"https://dl.freshdev.io/cli-addon/addon-1.10.0.zip"}},"last_updated":{"time_stamp":1648890288146}}[0m
+2022-04-04 19:20:59.180 +0530 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<7","message":"This FDK version has been deprecated and will no longer receive updates. To move to the latest version, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606"},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"7.5.1","command":"npm install https://dl.freshdev.io/cli/fdk-7.5.1.tgz -g","message":""}},"addon":{"version":"1.10.0","url":"https://dl.freshdev.io/cli-addon/addon-1.10.0.zip"}},"last_updated":{"time_stamp":1648890288146}}[0m
+2022-04-04 19:20:59.201 +0530 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.0.0","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.0","url":"https://dl.freshdev.io/cli-addon/addon-1.10.0.zip"}},"last_updated":{"time_stamp":1648890288146}}[0m
+2022-04-04 19:20:59.221 +0530 [warn] [33m[WARN][0m This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433.
+
+2022-04-04 19:21:02.980 +0530 [debug] ([34mmanifest.js[0m) [31mReloading manifest with {"platform-version":"2.2","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"index.html","icon":"styles/images/icon.svg"}}}},"whitelisted-domains":[],"engines":{"node":"12.0.0","fdk":"7.5.1"}}.[0m
+2022-04-04 19:21:02.980 +0530 [debug] ([34mmanifest.js[0m) [31mInferred db as features.[0m
+2022-04-04 19:21:03.011 +0530 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.0.0","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.0","url":"https://dl.freshdev.io/cli-addon/addon-1.10.0.zip"}},"last_updated":{"time_stamp":1649080259184}}[0m
+2022-04-04 19:21:03.134 +0530 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.0.0","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.0","url":"https://dl.freshdev.io/cli-addon/addon-1.10.0.zip"}},"last_updated":{"time_stamp":1649080259184}}[0m
+2022-04-04 19:21:24.127 +0530 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.0.0","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.0","url":"https://dl.freshdev.io/cli-addon/addon-1.10.0.zip"}},"last_updated":{"time_stamp":1649080259184}}[0m
+2022-04-04 19:21:36.980 +0530 [debug] ([34mvalidate.js[0m) [31masked to skip the following validations, [0m
+2022-04-04 19:21:36.981 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator actions[0m
+2022-04-04 19:21:36.982 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator app-dir[0m
+2022-04-04 19:21:36.985 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator config-dir[0m
+2022-04-04 19:21:36.986 +0530 [debug] ([34mconfig-dir.js[0m) [31mChecking to see if E:\Projects\manojtask/config/ exists.[0m
+2022-04-04 19:21:36.987 +0530 [debug] ([34mconfig-dir.js[0m) [31mFetched the following config files iparams.json[0m
+2022-04-04 19:21:36.987 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator custom-objects[0m
+2022-04-04 19:21:36.988 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator event[0m
+2022-04-04 19:21:36.989 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator iparam[0m
+2022-04-04 19:21:36.999 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator lint[0m
+2022-04-04 19:21:36.999 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator manifest[0m
+2022-04-04 19:21:36.999 +0530 [debug] ([34mmanifest.js[0m) [31mrunning manifest validation with type run_validation[0m
+2022-04-04 19:21:37.000 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator manifest-dependency[0m
+2022-04-04 19:21:37.000 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator oauth[0m
+2022-04-04 19:21:37.001 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator pkgsize[0m
+2022-04-04 19:21:37.001 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator schema[0m
+2022-04-04 19:21:37.001 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator version-check[0m
+2022-04-04 19:21:37.029 +0530 [debug] ([34mwatcher.js[0m) [31mPreparing to watch the following files ./app,./config,./manifest.json[0m
+2022-04-04 19:21:37.041 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-04 19:21:37.042 +0530 [debug] ([34mcustom-objects.js[0m) [31mto force or not? false[0m
+2022-04-04 19:21:37.042 +0530 [debug] ([34mcustom-objects.js[0m) [31mbeginning to re-sync db[0m
+2022-04-04 19:21:37.196 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-04 19:21:37.198 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-04 19:21:37.249 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-04 19:21:37.250 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-04 19:21:37.274 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-04 19:21:37.274 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-04 19:21:37.333 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-04 19:21:37.334 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-04 19:21:37.351 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2022-04-04 19:21:37.384 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"index.html"}" to all listeners.[0m
+2022-04-04 19:21:37.385 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-04 19:21:37.386 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"manojtask","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-04-04 19:21:37.443 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2022-04-04 19:21:37.475 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting E:\Projects\manojtask\app\scripts\app.js[0m
+2022-04-04 19:21:37.706 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"scripts\\app.js"}" to all listeners.[0m
+2022-04-04 19:21:37.707 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"scripts"}" to all listeners.[0m
+2022-04-04 19:21:37.929 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\BNK\AppData\Roaming\nvm\v12.0.0\node_modules\fdk\lib\models\bigint-pivot.js"[0m
+2022-04-04 19:21:37.957 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\BNK\AppData\Roaming\nvm\v12.0.0\node_modules\fdk\lib\models\entity-field-choice.js"[0m
+2022-04-04 19:21:37.970 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\BNK\AppData\Roaming\nvm\v12.0.0\node_modules\fdk\lib\models\entity-field.js"[0m
+2022-04-04 19:21:37.982 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\BNK\AppData\Roaming\nvm\v12.0.0\node_modules\fdk\lib\models\entity.js"[0m
+2022-04-04 19:21:37.994 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\BNK\AppData\Roaming\nvm\v12.0.0\node_modules\fdk\lib\models\record.js"[0m
+2022-04-04 19:21:38.005 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\BNK\AppData\Roaming\nvm\v12.0.0\node_modules\fdk\lib\models\string-pivot.js"[0m
+2022-04-04 19:21:38.048 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-04-04 19:21:38.049 +0530 [debug] ([34mcustom-objects.js[0m) [31mupdated local store with latest entity hash[0m
+2022-04-04 19:21:38.051 +0530 [info] Starting local testing server at http://*:10001/    
+Append 'dev=true' to your Freshdesk account URL to start testing    
+e.g. https://domain.freshdesk.com/a/tickets/1?dev=true    
+Quit the server with Control-C.
+2022-04-04 19:21:39.901 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2022-04-04 19:21:55.050 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /modal.html[0m
+2022-04-04 19:21:55.093 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"modal.html"}" to all listeners.[0m
+2022-04-04 19:21:55.115 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2022-04-04 19:21:55.134 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/create-ticket.js[0m
+2022-04-04 19:21:55.135 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting E:\Projects\manojtask\app\scripts\create-ticket.js[0m
+2022-04-04 19:21:55.245 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2022-04-04 19:21:55.245 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting E:\Projects\manojtask\app\scripts\app.js[0m
+2022-04-04 19:21:57.369 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2022-04-04 19:22:43.361 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2022-04-04 19:22:43.896 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /modal.html[0m
+2022-04-04 19:22:43.965 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/create-ticket.js[0m
+2022-04-04 19:22:43.965 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting E:\Projects\manojtask\app\scripts\create-ticket.js[0m
+2022-04-04 19:22:45.356 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2022-04-04 19:23:12.821 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /modal.html[0m
+2022-04-04 19:23:12.880 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/create-ticket.js[0m
+2022-04-04 19:23:12.881 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting E:\Projects\manojtask\app\scripts\create-ticket.js[0m
+2022-04-04 19:23:13.360 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2022-04-04 19:24:07.659 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"styles"}" to all listeners.[0m
+2022-04-04 19:24:07.666 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"styles\\images"}" to all listeners.[0m
+2022-04-04 19:24:07.777 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2022-04-04 19:24:07.902 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2022-04-04 19:24:07.902 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting E:\Projects\manojtask\app\scripts\app.js[0m
+2022-04-04 19:24:10.561 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2022-04-04 19:39:21.080 +0530 [info] 
+NOTE: We recommend a coverage of 80% for apps that are to be published in the public marketplace.
+2022-04-04 19:41:46.533 +0530 [debug] ([34mlogger.js[0m) [31mStarting FDK in node v12.0.0 on win32[0m
+2022-04-04 19:41:47.675 +0530 [debug] ([34msequelize.js[0m) [31msetting up sqilite at "E:\Projects\manojtask/.fdk/store.sqlite"[0m
+2022-04-04 19:41:47.814 +0530 [debug] ([34mindex.js[0m) [31mRunning with args {"cmd":"pack","gopts":{},"opts":{},"goptArg":{},"optArg":{},"args":[]}[0m
+2022-04-04 19:41:47.815 +0530 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.0.0","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.0","url":"https://dl.freshdev.io/cli-addon/addon-1.10.0.zip"}},"last_updated":{"time_stamp":1649080259184}}[0m
+2022-04-04 19:41:47.815 +0530 [debug] ([34mupdater.js[0m) [31mlast check less than an day ago, not looking for updates[0m
+2022-04-04 19:41:48.808 +0530 [debug] ([34mmanifest.js[0m) [31mReloading manifest with {"platform-version":"2.2","product":{"freshdesk":{"location":{"ticket_top_navigation":{"url":"index.html","icon":"styles/images/icon.svg"}}}},"whitelisted-domains":[],"engines":{"node":"12.0.0","fdk":"7.5.1"}}.[0m
+2022-04-04 19:41:48.808 +0530 [debug] ([34mmanifest.js[0m) [31mInferred db as features.[0m
+2022-04-04 19:41:48.809 +0530 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.0.0","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.0","url":"https://dl.freshdev.io/cli-addon/addon-1.10.0.zip"}},"last_updated":{"time_stamp":1649080259184}}[0m
+2022-04-04 19:41:50.822 +0530 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.0.0","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.0","url":"https://dl.freshdev.io/cli-addon/addon-1.10.0.zip"}},"last_updated":{"time_stamp":1649080259184}}[0m
+2022-04-04 19:41:51.816 +0530 [debug] ([34mpack.js[0m) [31m'pack' called with {}[0m
+2022-04-04 19:41:51.817 +0530 [debug] ([34mvalidate.js[0m) [31masked to skip the following validations, [0m
+2022-04-04 19:41:51.817 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator actions[0m
+2022-04-04 19:41:51.817 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator app-dir[0m
+2022-04-04 19:41:51.818 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator config-dir[0m
+2022-04-04 19:41:51.819 +0530 [debug] ([34mconfig-dir.js[0m) [31mChecking to see if E:\Projects\manojtask/config/ exists.[0m
+2022-04-04 19:41:51.819 +0530 [debug] ([34mconfig-dir.js[0m) [31mFetched the following config files iparams.json[0m
+2022-04-04 19:41:51.819 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator custom-objects[0m
+2022-04-04 19:41:51.819 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator event[0m
+2022-04-04 19:41:51.819 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator iparam[0m
+2022-04-04 19:41:51.823 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator lint[0m
+2022-04-04 19:41:51.823 +0530 [debug] ([34mlint.js[0m) [31mpassed fix flag: undefined[0m
+2022-04-04 19:41:51.825 +0530 [debug] ([34mlint-util.js[0m) [31mRunning the following lints on the file app\scripts\app.js : no-caller,no-process-env,complexity,max-nested-callbacks,handle-callback-err,no-eval,no-alert,no-debugger,no-unreachable,no-unlisted-url,no-unhandled-promise,no-logging-rejections,no-non-client-request-model,no-cross-scope-assign,no-empty-function,no-unused-vars[0m
+2022-04-04 19:41:52.131 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator manifest[0m
+2022-04-04 19:41:52.132 +0530 [debug] ([34mmanifest.js[0m) [31mrunning manifest validation with type pre_pkg_validation[0m
+2022-04-04 19:41:52.133 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator manifest-dependency[0m
+2022-04-04 19:41:52.133 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator oauth[0m
+2022-04-04 19:41:52.134 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator pkgsize[0m
+2022-04-04 19:41:52.134 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator schema[0m
+2022-04-04 19:41:52.135 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator version-check[0m
+2022-04-04 19:41:52.156 +0530 [warn] Please ensure that the following are addressed for quick review process.
+2022-04-04 19:41:52.159 +0530 [warn] [33m[WARN][0m app\scripts\app.js::32: refrain from simply logging errors.
+2022-04-04 19:41:52.161 +0530 [error] 
+2022-04-04 19:41:52.165 +0530 [info] App being packed in Node v12.0.0 using FDK 7.5.1
+2022-04-04 19:41:52.216 +0530 [debug] ([34mpack.js[0m) [31mCannot find './visitor-app' directory while packing.[0m
+2022-04-04 19:41:52.217 +0530 [debug] ([34mpack.js[0m) [31mCannot find './src' directory while packing.[0m
+2022-04-04 19:41:52.225 +0530 [debug] ([34mpack.js[0m) [31mCannot find './server' directory while packing.[0m
+2022-04-04 19:41:52.240 +0530 [debug] ([34mfile-util.js[0m) [31mComputing digest for app\index.html,app\modal.html,app\scripts\app.js,app\styles\images\icon.svg,app\styles\style.css,manifest.json.[0m
+2022-04-04 19:41:52.247 +0530 [debug] ([34mpack.js[0m) [31mPacking ./app\index.html[0m
+2022-04-04 19:41:52.249 +0530 [debug] ([34mpack.js[0m) [31mPacking ./app\modal.html[0m
+2022-04-04 19:41:52.249 +0530 [debug] ([34mpack.js[0m) [31mPacking ./app\scripts\app.js[0m
+2022-04-04 19:41:52.250 +0530 [debug] ([34mpack.js[0m) [31mPacking ./app\styles\images\icon.svg[0m
+2022-04-04 19:41:52.252 +0530 [debug] ([34mpack.js[0m) [31mPacking ./app\styles\style.css[0m
+2022-04-04 19:41:52.252 +0530 [debug] ([34mpack.js[0m) [31mPacking ./config\iparams.json[0m
+2022-04-04 19:41:52.252 +0530 [debug] ([34mpack.js[0m) [31mPacking ./manifest.json[0m
+2022-04-04 19:41:52.253 +0530 [debug] ([34mpack.js[0m) [31mPacking ./.report.json[0m
+2022-04-04 19:41:52.253 +0530 [debug] ([34mpack.js[0m) [31mPacking ./README.md[0m
+2022-04-04 19:41:52.254 +0530 [debug] ([34mpack.js[0m) [31mPacking ./digest.md5[0m
+2022-04-04 19:41:52.431 +0530 [debug] ([34mvalidate.js[0m) [31masked to skip the following validations, [0m
+2022-04-04 19:41:52.432 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator actions[0m
+2022-04-04 19:41:52.432 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator app-dir[0m
+2022-04-04 19:41:52.432 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator config-dir[0m
+2022-04-04 19:41:52.433 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator custom-objects[0m
+2022-04-04 19:41:52.433 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator event[0m
+2022-04-04 19:41:52.433 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator iparam[0m
+2022-04-04 19:41:52.433 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator lint[0m
+2022-04-04 19:41:52.434 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator manifest[0m
+2022-04-04 19:41:52.434 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator manifest-dependency[0m
+2022-04-04 19:41:52.434 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator oauth[0m
+2022-04-04 19:41:52.434 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator pkgsize[0m
+2022-04-04 19:41:52.435 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator schema[0m
+2022-04-04 19:41:52.435 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator version-check[0m
+2022-04-04 19:41:52.440 +0530 [info] App packed successfully at \dist\manojtask.zip
+2022-04-04 19:41:52.443 +0530 [info] Upload this file to the marketplace by following the instructions at https://developer.freshdesk.com/v2/docs/freshdesk-apps/
+2022-04-04 19:41:52.444 +0530 [debug] ([34mfile-util.js[0m) [31mDeleting digest.[0m
